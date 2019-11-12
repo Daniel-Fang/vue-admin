@@ -1,3 +1,3 @@
 <template>
-    <div>user</div>
+    <div>404</div>
 </template>

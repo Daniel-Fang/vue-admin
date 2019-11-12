@@ -1,5 +1,7 @@
 <template>
-    <router-view></router-view>
+    <div class="permission-add">
+        permission-add
+    </div>
 </template>
 
 <script>

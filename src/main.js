@@ -2,8 +2,29 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import { Button, Form, Input, Container, Aside, Main, Header, Menu, MenuItem, Submenu, MenuItemGroup, Breadcrumb, BreadcrumbItem } from 'element-ui';
 import '../mock';
+import { 
+  Button, 
+  Form, 
+  Input, 
+  Container, 
+  Aside, 
+  Main, 
+  Header, 
+  Menu, 
+  MenuItem, 
+  Submenu, 
+  MenuItemGroup, 
+  Breadcrumb, 
+  BreadcrumbItem, 
+  Checkbox, 
+  Row, 
+  Col, 
+  Avatar, 
+  Dropdown, 
+  DropdownItem, 
+  DropdownMenu
+} from 'element-ui';
 
 Vue.config.productionTip = false;
 Vue.use(Button);
@@ -19,6 +40,13 @@ Vue.use(Submenu);
 Vue.use(MenuItemGroup);
 Vue.use(Breadcrumb);
 Vue.use(BreadcrumbItem);
+Vue.use(Checkbox);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Avatar);
+Vue.use(Dropdown);
+Vue.use(DropdownItem);
+Vue.use(DropdownMenu);
 
 new Vue({
   router,
