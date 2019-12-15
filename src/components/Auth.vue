@@ -6,7 +6,6 @@ export default {
     props: {
         authority: {
             type: Array,
-            required: true,
             default: function() {
                 return ['user']
             }
